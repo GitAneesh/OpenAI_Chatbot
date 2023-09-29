@@ -18,4 +18,9 @@ def chatbot_endpoint():
 
     return jsonify({"error": "Invalid request format"}), 400
 
+   if name == 'main':
+   app.run(debug=True)
+
+   
+
 
